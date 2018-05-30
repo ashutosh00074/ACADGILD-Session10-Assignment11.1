@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#384850"
+    tools:context="com.tech.gigabyte.datastorage.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/acadgild" />
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgview"
+        android:layout_marginTop="100sp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="@string/assignment_database_basics"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/button_style"
+        android:text="@string/q_u_e_s_t_i_o_n_a"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/button_style"
+        android:text="@string/q_u_e_s_t_i_o_n_b"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/button_style"
+        android:text="@string/q_u_e_s_t_i_o_n_c"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
